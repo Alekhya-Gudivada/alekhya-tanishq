@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>tanishq</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +17,17 @@
     <style>
         body{
             margin:0;
-            padding: 0;
+
   box-sizing: border-box;
+  position:sticky;
+
+
         }
-        
+        h4{
+            font-family: Roboto-regular;
+            color:darkred;
+
+        }
         .navbar{
             background-color:#f2e9e9;
             text-align:center ;
@@ -32,28 +40,21 @@
         .navbar img{
            margin-left: 70px;
         }
-        
-        
-        
         .container i{
             color: darkred;
             margin-left: 12px;
         }
-        
         .icons{
             display: flex;
             font-size:3px ;
             gap: 30px;
             margin-top: 17px;
-
-
         }
         .icons p{
             font-size: 12px;
             font-family: 'open sans light'.sans-serif;
             color: darkred;
             font-family: nunito_sansregular !important;
-
         }
         .icons i{
             color: darkred;
@@ -72,8 +73,6 @@
             padding: 17px;
             display: flex;
             margin: 20px;
-            
-
         }
         .container input{
             border: none;
@@ -81,14 +80,11 @@
             flex: 1;
             margin-left:0px;
             padding: 10px;
-
-
         }
 
         .category{
             padding: 19px;
         }
-
         .category a{
             text-decoration: none;
             align-content: center;
@@ -96,9 +92,8 @@
             margin-left: 3%;
             font: normal normal normal 0.875rem / 1.188rem "nunito_sansregular";
 }
-            font-size: 15px;
-
-        }
+            
+        
         h2{
             font-size: 38px;
             color: darkred;
@@ -147,12 +142,7 @@
         }
         .circles{
             color: darkred;
-
-
-        }
-       
-            
-            
+        }    
        .container2{
          width:92%;
       display: flex;
@@ -388,6 +378,13 @@
 
             background-color: #f6eeee;
         }
+         .jewellery-collection{
+            border-box:10%;
+            display: flex;
+            margin:60px;
+
+            background-color: #f6eeee;
+        }
         .search-image{
             padding: 2%;
         }
@@ -395,7 +392,6 @@
 h3{
     color:darkred;
 }
-
 
 video{
     border-radius: 60px;
@@ -540,13 +536,15 @@ video{
 .social-links a {
     margin-left: 10px;
 }
-
+.jewellery-collection h4{
+    padding: 35px;
+    font-weight: 400;
+    font-family: nunito_sansregular;
+    font-size: 19px
+    
 }
-
-
-
- 
  </style>
+
 </head>
 <body>
     <nav class="navbar">
@@ -558,9 +556,7 @@ video{
         <input type="search" placeholder="Search for Gold Jewellery, diamond... ">
         <i class="fa-solid fa-camera"></i>
         <i class="fa-solid fa-microphone"></i>
-        <i class="fa-solid fa-magnifying-glass"></i>
-
-    
+        <i class="fa-solid fa-magnifying-glass"></i> 
     </div>
     <div class="icons">
         <a href=""><i class="fa-regular fa-gem"></i>
@@ -593,21 +589,15 @@ video{
         <a href="">GIFTING</a>
         <a href="">GOLDEN HARVEST</a>
         <a href="">MORE</a>
-    
-
     </div>
     <div class="line-design">
         <img src ="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw717035de/homepage/HeroBanner/the-spotlight-edit-desktop.jpg" width="100%" alt="image">
        <span class="sr-only">Next</span>
     </div>
-     
-
 <center><h1>Diamond Best Sellers</h1><center>
     <center><p>Dazzling diamond jewellery, now at delightful prices</p></center>
    
 <img class ="line-design"src="https://stg.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw3fc25c81/images/home/Line-Design.svg" width="90%">
-
-
 <div class="container1">
     
     <div class="chic-bangle">
@@ -854,14 +844,12 @@ video{
     
 </div>
 </div>
-<div class="search-image">
-<img src="https://dajdiamond.com/wp-content/uploads/2022/07/Black-Wedding-Jewelry-Landscape-Banner-1024x512.png" width=20%>
-<img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwbac94b1f/images/shopbylook/look_syte.png">
-</div>
- 
-<img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg" width=90%>
 
-<img src="https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwa2f88d7f/homepage/Mia/gwtf-desktopm.jpg" width=88%>
+    <div class="jewellery-collection">
+<img src="https://dajdiamond.com/wp-content/uploads/2022/07/Black-Wedding-Jewelry-Landscape-Banner-1024x512.png" alt="jewellerycollection" width=20%>
+<h4>Look no further! Upload the screenshots from your favorite wedding celebrity looks and find similar pieces using image search!</h4>
+
+</div>
 
 
 <video width="90%"  autoplay muted loop playsinline>
@@ -877,6 +865,7 @@ video{
 <img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw78fb320b/images/home/Line-Design.svg">
 <div class="container9">
 <img class="metalguide" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQAuOj8VaNgoAu8Z3OPL7mnCPOxip6abQB7gdsPN5mUxQXnJpB0">
+<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxxecXA6VD1t5a65eX_9jujQkSX1pURvayNI9T7y87JxQRttWA">
 
 </div>
 <h1>Connect With Us</h1>
@@ -923,16 +912,10 @@ video{
                     <a href="#"><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw3727ec18/images/footer/appstore-d.png" width=40%></a>
                     <a href="#"><img src="https://www.tanishq.co.in/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dwa17f8ad4/images/footer/Component%20145%20%E2%80%93%201@2x.png" width=40%></a>
                 </div>
-            
-        
-        
         <p>© 2024 Titan Company Limited. All Rights Reserved.</p>
           </div>
         </div>
-        
       </div>
-     
-      
     </div>
   </body>
 </html>
